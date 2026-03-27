@@ -1,10 +1,11 @@
-import { useState } from 'react'
+import CardRenderer from './CardRenderer'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
+      <h1 className='text-2xl'>Learn Web development</h1>
+      <CardRenderer/>
     </>
   )
 }
